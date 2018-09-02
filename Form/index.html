@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>FORM</title>
+	<style type="text/css">
+		input{
+			border: 2px solid black;
+			padding-top: 5px;
+		}
+		.submit{
+			margin-right: 10px;
+
+		}
+	</style>
+</head>
+<body>
+	<form action="data.php" method="post">
+		<label>Username</label>
+		<br />
+		<input type="text" name="username">
+		<br />
+		<label>Gender</label>
+		<br />
+		<label>Male</label>
+		<input type="radio" name="gender" value="male" />
+		<label>Female</label>
+		<input type="radio" name="gender" value="female" />
+		<br />
+		<input type="text" autofocus="autofocus">
+		<br />
+		<input type="text" placeholder="snjsjsjssk">
+			<br />
+		<input type="text" pattern="[0-9]{3}">
+		<input class="submit" type="submit" name="submit">
+	</form>
+
+</body>
+</html>

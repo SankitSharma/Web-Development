@@ -1,0 +1,12 @@
+.main{
+	width: 600px;
+	height: 400px;
+	background-color: red;
+	border: 5px solid blue;
+	transition: all 4s 2s step-start; 
+}
+.main:hover{
+	width: 700px;
+	height: 500px;
+	background-color: grey;
+}

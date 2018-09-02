@@ -1,0 +1,23 @@
+.prolog{
+	width: 600px;
+	height: 400px;
+	background-color:#2e8225;
+	margin:auto;
+	position: relative;
+	top: 80px;
+	border: 10px solid #29464d;
+	color: #29464d;
+	font-size: 80px;
+	text-align: center;
+	padding-top: 50px;
+	box-sizing: border-box;
+	border-radius: 100px 5px;
+	box-shadow: 10px 10px 18px #478e95,-10px -10px 18px #478e95;
+	text-shadow: 5px 5px 2px #478e95;
+
+}
+.prolog:active{
+	width: 590px;
+	height: 390px;
+	font-size: 77px;
+}

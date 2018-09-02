@@ -1,0 +1,110 @@
+.parent{
+	width: 400px;
+	height: 300px;
+	position: relative;
+	background-image: url(image1.jpg);
+	background-size: cover;
+	overflow: hidden;
+	margin: auto;
+}
+.child{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 400px;
+	background-color: black;
+	transition: all 2s;
+	opacity: 0.5;
+
+}
+.parent:hover .child{
+	top: 0px;
+}
+.child-1{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 400px;
+	background-color: red;
+	transition: all 2s 1s;
+	opacity: 0.5;
+
+}
+.parent:hover .child-1{
+	bottom: 0px;
+}
+.child-2{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	right: 400px;
+	background-color: green;
+	transition: all 2s 2s;
+	opacity: 0.5;
+
+}
+.parent:hover .child-2{
+	right: 0px;
+}
+.child-3{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 400px;
+	background-color: grey;
+	transition: all 2s 4s;
+	opacity: 0.5;
+
+}
+.parent:hover .child-3{
+	left: 0px;
+}
+.child-4{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 400px;
+    right: 400px;
+    background-color: yellow;
+	transition: all 2s 5s;
+	opacity: 0.5;
+
+}
+.parent:hover .child-4{
+	bottom: 0px;
+    right: 0px;
+}
+.child-5{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 400px;
+    left: 400px;
+    background-color: pink;
+	transition: all 2s 6s;
+	opacity: 0.5;
+
+}
+
+.parent:hover .child-5{
+	top: 0px;
+    left: 0px;
+}
+.child-6{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 400px;
+    left: 400px;
+    background-color: #5c979f;
+	transition: all 2s 7s;
+/*	opacity: 0.5;*/
+
+}
+
+.parent:hover .child-6{
+	bottom: 0px;
+    left: 0px;
+}
+
+

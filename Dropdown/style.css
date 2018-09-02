@@ -1,0 +1,27 @@
+.navbar{
+	position: relative;
+}
+.navbar ul{
+	position: absolute;
+	list-style-type: none;
+}
+.navbar ul li{
+	background-color: red;
+	border:4px solid black;
+	padding: 10px;
+	text-align: center;
+	margin-right: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.navbar .dropdown .dropdown-content li{
+	margin: 5px;
+	border-radius: 5px;
+	display: block;
+}
+.navbar .dropdown .dropdown-content{
+	display: none;
+}
+.navbar .dropdown:hover > .dropdown-content{
+	display: block;	
+}

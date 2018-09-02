@@ -1,0 +1,89 @@
+.parent{
+	width: 850px;
+	height: 540px;
+	position: relative;
+	margin: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	box-sizing: border-box;
+	background-image: url(image/photo1.jpg);
+}
+.child-1{
+	width: 850px;
+	height: 70px;
+	text-align: center;
+	font-size: 32px;
+	color: white;
+	padding-top: 12px;
+	font-family:Arial Regular;
+}
+.child-2{
+	width: 311px;
+	height: 332px;
+	background-color: #9ca0a0;
+	position: absolute;
+	top: 112px;
+	bottom: 96px;
+	left: 264px;
+	right: 275px;
+	opacity: 0.5;
+}
+.type-1{
+    width: 332px;
+	height: 311px;
+	position: absolute;
+    top: 112px;
+	bottom: 96px;
+	left: 264px;
+	right: 275px;
+}
+form{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+label{
+	color: white;
+	font-size: 12px;	
+}
+.decoration-1{
+	border: 2px solid white;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	color: white;
+	background-color: black;
+	opacity: 0.6;
+	font-size: 20px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 22px;
+}
+.decoration-2{
+	color: white;
+	font-size: 16px;
+	padding-right: 68px;
+	background-color: black;
+	opacity: 0.6;
+	margin-top: 4px;
+	padding-top: 4px;
+	border: 2px solid white;
+}
+.decoration-3{
+	background-color:#af7d0a;
+	color: white;
+	font-size: 22px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 16px;	
+}
+.child-3{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 475px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 11px;
+	color: white;
+}

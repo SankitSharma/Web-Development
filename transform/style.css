@@ -1,0 +1,55 @@
+.parent{
+	width: 400px;
+	height: 505px;
+	position: relative;
+/*	background-color: green;*/
+	top:80px;
+	overflow: hidden;
+	margin: auto;
+
+ 
+}
+.main{
+	width: 200px;
+	height: 500px;
+	background-color: blue;
+	position: relative;
+	border:2px solid black;
+	margin: auto;
+	/*top: 40px;*/
+
+}
+.designer{
+	list-style-type: none;
+	position: absolute;
+    left: -64px;
+    top: -5px;
+    transition: all 2s;
+	
+}
+.designer li{
+    width: 20px;
+    height: 20px;
+    border:2px solid black;
+    margin-top: 10px;
+}
+.designer-1{
+    list-style-type: none;
+	position: absolute;
+    right: -24px;
+    top: -5px;
+    transition: all 2s;
+}
+.designer-1 li{
+    width: 20px;
+    height: 20px;
+    border:2px solid black;
+    margin-top: 10px;
+}
+.main:hover .designer{
+	transform: translate(0px,-120px);
+
+} 
+.main:hover .designer-1{
+	transform: translate(0px,-120px);
+}

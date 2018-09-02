@@ -1,0 +1,403 @@
+.main{
+	width: 850px;
+/*	height: 588px;*/
+	background-color: white;
+	border: 1px solid #f1f0f0;
+	position: relative;
+	margin: auto;
+	top: 5px;
+}
+.parent{
+	width: 770px;
+/*	height: 592px;*/
+	position: relative;
+    left: 40px;
+    right: 40px;
+}
+.navbar-1{
+	width: 770px;
+	height: 55px;
+	position: absolute;
+}
+.container{
+	width: 510px;
+	height: 55px;
+	float: right;
+	background-color: #1c5eaa;
+}
+.designer-1{
+	width: 510px;
+	float: right;
+	margin: auto;
+}
+.designer-1 li{
+	width: 16%;
+	height: 55px;
+	text-align: center;
+	display: inline-block;
+	font-size: 12px;
+	color: #d3dcdc;
+	box-sizing: border-box;
+	font-family: Calibri Regular;
+	border-right: 1px solid #585a5a;
+}
+p{
+	height: 0px;
+}
+.decoration-1{
+	font-size: 8px;
+	color: #d3dcdc;
+	font-family: Calibri Regular;
+}
+.navbar-2{
+	width: 540px;
+	height: 30px;
+	background-color: #1e5dad;
+	position: absolute;
+	top: 60px;
+}
+.navbar-2 p{
+	width: 66%;
+	margin-top:6px;
+	margin-left: 10px;
+	color: #d3dcdc;
+    font-size:12px;
+    font-family: Calibri Regular;
+    display: inline-block;
+}
+form{
+	width: 24%;
+	margin-top: 5px;
+	display: inline-block;
+}
+input{
+	margin-left:38px;
+	width: 96%;
+	height: 15px;
+}
+.child-1{
+	width: 530px;
+	height: 484px;
+	position: absolute;
+	top: 100px;
+}
+.designer-2{
+	margin: auto;
+	padding-left: 0px;
+}
+.designer-2 li{
+    width: 170px;
+	height: 156px;
+	border: 1px solid #f1f0f0;
+	display: inline-block;
+	padding-right: 2px;
+	margin-bottom: 5px;
+}
+.decoration-2{
+	font-size: 11px;
+	color: #2f2f2f;
+	margin-left: 6px;
+	font-family: 'Calibri Regular';
+}
+iframe{
+	width: 160px;
+	height: 100px;
+	margin-left: 6px;
+	margin-top: 2px;
+}
+.designer-2 img{
+	margin-left: 6px;
+}
+.decoration-3{
+	font-size: 10px;
+	color: #1e5dad;
+	margin-left: 55px;
+    font-family: 'Calibri Regular';
+}
+.decoration-4{
+	font-size: 10px;
+	color: #b6b6b6;
+	margin-left: 7px;
+	margin-top: -4px;
+	float: left;
+    font-family: 'Calibri Regular';
+}
+.decoration-5{
+	font-size: 10px;
+	color:#1e5dad;
+	margin-top: -4px;
+	float: left;
+    font-family: 'Calibri Regular';
+}
+.child-2{
+	width: 224px;
+	height: 420px;
+	position: absolute;
+	top: 60px;
+    left: 546px;
+}
+.navbar-3{
+	width: 100%;
+	height: 34px;
+	background-color: #1e5dad;
+	float: right;
+
+}
+.navbar-3 p{
+	width: 32%;
+	font-size: 11px;
+	color: #d3dcdc;
+    font-family: Calibri Regular;
+    margin-left: 6px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 9px;
+
+}
+.navbar-3 img{
+    margin-left: 78px;
+}
+.decoration-6{
+	font-size: 11px;
+	margin-top: 8px;
+    color: #d3dcdc;
+	float: right;
+    font-family: Calibri Regular;
+    margin-right: 6px;
+}
+.box-1{
+    width: 100%;
+	height: 186px;
+	border: 1px solid #f1f0f0;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+}
+.box-1 iframe{
+	width: 210px;
+	height: 130px;
+}
+.box-1 img{
+	margin-left: 2px;
+	float: left;
+}
+.decoration-7{
+    font-size: 11px;
+	color: blue;
+	margin-left: 98px;
+    font-family: Calibri Regular;
+}
+.decoration-8{
+   	font-size: 10px;
+	color: #b6b6b6;
+	margin-left: -44px;
+	margin-top: 14px;
+	float: left;
+    font-family: 'Calibri Regular';
+}
+.decoration-9{
+   	font-size: 10px;
+	color:blue;
+	margin-top: 14px;
+	margin-left: -14px;
+	float: left;
+    font-family: Calibri Regular;
+}
+.navbar-4{
+	width: 100%;
+	height: 25px;
+	background-color: #1e5dad;
+	float: right;
+	margin-top: 5px;
+}
+.navbar-4 p{
+	font-size: 11px;
+	color: #d3dcdc;
+    font-family: Calibri Regular;
+    margin-left: 6px;
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+.box-2{
+    width: 100%;
+	height: 80px;
+	border: 1px solid #f1f0f0;
+	margin-top: 35px;
+	box-sizing: border-box;
+	margin-bottom: -30px;
+}
+.box-2 iframe{
+	width: 210px;
+	height: 66px;
+	margin-top: 6px;
+}
+.child-3{
+	width: 200px;
+	height: 414px;
+	background-color: #8d9391;
+	position: fixed;
+	float: right;
+	top: 150px;
+	z-index: 100;
+	/*left: 58px;*/
+	right: 270px;
+	border-radius: 36px;
+}
+.box-3{
+	width: 193px;
+	height: 408px;
+	background-color:black;
+	position: absolute;
+	border-radius: 36px;
+	border: 1px solid #dfdddd;
+	top: 2px;
+	left: 2px;
+}
+.camera{
+    width: 8px;
+	height: 8px;
+	background-color:#3c3c3c;
+	position: absolute;
+	border-radius: 50%;
+	top: 20px;
+	left:60px;
+}
+.camera-1{
+    width: 3px;
+	height: 3px;
+	background-color:black;
+	position: absolute;
+	border-radius: 50%;
+	top: 2px;
+	left:2px;
+}
+.speaker{
+	width: 35px;
+	height: 5px;
+	background-color:#3c3c3c;
+	position: absolute;
+	border-radius: 20%;
+	top: 22px;
+	left:80px;
+}
+.display{
+	width: 175px;
+	height: 310px;
+	background-color:white;
+	position: absolute;
+	top: 50px;
+	left: 9px;
+}
+.imagedecoration-1{
+	float: right;
+	width: 175px;
+
+}
+.imagedecoration-2{
+	width: 100px;
+	height: 40px;
+	margin-left: 40px;
+}
+.homebutton{
+	width: 28px;
+	height: 28px;
+	background-color:black;
+	border: 2px solid #2d2d2f;
+	position: absolute;
+	border-radius: 50%;
+	top: 368px;
+	left:80px;
+}
+.navbar-5{
+	width: 175px;
+	height: 25px;
+	background-color:#1e5dad;
+	position: absolute;
+	top: 58px;
+	
+}
+.navbar-5 p{
+	font-size: 11px;
+	margin-top: 4px;
+	font-family: Calibri Regular;
+	margin-left: 6px;
+	color: #d3dcdc;
+}
+.navbar-5 img{
+    float: right;
+    margin-top:-15px;
+}
+.navbar-6{
+	width: 165px;
+	height: 25px;
+	background-color:#1e5dad;
+	position: absolute;
+	top: 83px;
+	float: right;
+	margin-left: 5px;
+	
+}
+.navbar-6 p{
+	font-size: 11px;
+	margin-top: 4px;
+	font-family: Calibri Regular;
+	margin-left: 4px;
+	color: #d3dcdc;
+	display: inline-block;
+}
+.decoration-10{
+	width: 90px;
+	margin-top: 2px;
+	margin-left: -34px;
+	display: inline-block;
+}
+.decoration-11{
+	height: 13px;
+}
+.box-4{
+	width: 165px;
+	height: 146px;
+	position: absolute;
+	border: 1px solid #f1f0f0;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	top: 116px;
+	left: 5px;
+}
+.box-4 iframe{
+	width: 151px;
+	height: 95px;
+}
+.box-4 img{
+	margin-left: 2px;
+	float: left;
+	display: inline-block;
+}
+.decoration-12{
+    font-size: 10px;
+	color: #1e5dad;
+	margin-left: 57px;
+    font-family: Calibri Regular;
+    float: left;
+}
+.decoration-13{
+	font-size: 9px;
+	color: #b6b6b6;
+	margin-left: -148px;
+	margin-top: 12px;
+	float: left;
+    font-family: Calibri Regular;
+}
+.decoration-14{
+	font-size: 9px;
+	color:#1e5dad;
+	margin-left: -16px;
+	float: left;
+    font-family: Calibri Regular;
+}
+.imagedecoration-3{
+	position: absolute;
+	top: 268px;
+	left: 6px;
+}

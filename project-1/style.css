@@ -1,0 +1,209 @@
+body{
+      width: 1200px; 
+     height: 1200px;
+     background-color: #04030b;
+}
+.parent{
+	width: 1200px;
+	height: 1200px;
+	background-color: #232323;
+}  
+.grandfather{
+	width:950px; 
+	height:1118px;
+	background-color: #4c4a4d;
+	margin: auto;
+} 
+.schild{
+     width:950px; 
+     height:90px;
+     background-color: #232323;
+     padding-bottom: 2px;
+     
+
+}
+.schild-1{
+	width:256px; 
+	height:70px;
+	display: inline-block;
+	float: bottom;
+	margin-top: 20px;
+}
+.schild-2{
+	width:550px; 
+	height:86px;
+	display: inline-block;
+	text-align: right;
+	margin-top: 40px;
+	margin-right: 10px; 
+	float: right;
+
+}
+.imagedecoration{
+	text-decoration: underline;
+	color: #9a9a9a;
+
+}
+.child{
+      width: 950px;
+      height: 332px;
+      background-color: #4c4a4d;
+     margin-top: -42px;
+      
+       float: right;
+       
+
+
+}
+.childboy{
+	width: 468px;
+	height: 340px;
+	
+	display: inline-block;
+
+}
+.childtext{
+	width: 50%;
+	height: 240px;
+	background-color: #4c4a4d;
+	display: inline-block;
+	padding-left: -20px;
+	color: white;
+    font-size: 50px;
+    float: right;
+    padding-top: 40px;
+
+}
+
+.child-1{
+	width: 950px;
+	height: 52px;
+	background-color: #1e75c2;
+	margin-top: 16px;
+	display: inline-block;
+	
+}
+
+.boy-1{
+	width: 150px;
+	height: 52px;
+	background-color: #1e75c2;
+     display: inline-block;
+     border-right: 0.1px solid skyblue;
+     list-style-type: none; 
+     text-align: center;
+     
+  
+}
+.boy-1 li{
+	color: white;
+	padding-top: 16px;
+	text-align: center;
+	font-size: bold;
+
+}
+
+.child-2{
+	width:950px; 
+	height:526px;
+	background-color: white;
+	margin-bottom: 40px;
+	list-style-type: none;
+}
+.son{
+	width:950px; 
+	height:212px;
+	background-color: white;
+	display: inline-block;
+	
+}
+.girl{
+	width: 178px;
+	height: 180px;
+	background-color: white;
+	padding-left: 50px;
+	padding-top: 30px;
+	display: inline-block;
+
+}
+.photodecoration{
+	color: black;
+	text-decoration: underline;
+	font-size: 20px;
+}
+.girl-1{
+     width: 722px;
+     height: 210px;
+     background-color: red;
+     float: right;
+     display: inline-block;
+
+}
+.text{
+      width: 722px;
+      height:60px;
+      background-color: white; 
+
+}
+.text li{
+	 font-size: 20px;
+	 text-decoration: underline;
+	 padding-top: 30px;
+	 padding-left: 20px;
+}
+.text-1{
+	   width: 722px;
+      height:150px;
+      background-color: white; 
+}
+.text-1 li{
+	  font-size: 15px;
+	   padding-top: 10px;
+	 padding-left: 20px;
+}
+
+.son-1{
+	width:950px; 
+	height:158px;
+	background-color: white;
+    display: inline-block;
+	
+}
+.son-1 li{
+	padding-left: 50px;
+	margin-right: -10px;
+	display: inline-block;
+}
+.son-2{
+	width:950px; 
+	height:158px;
+	background-color: white;
+     display: inline-block;
+}
+.son-2 li{
+	padding-left: 50px;
+	margin-right: -10px;
+    display: inline-block;
+}
+.child-3{
+	 width:950px; 
+	 height:80px;
+	 background-color: #4c4a4d;
+	 list-style-type: none;
+	 
+
+}
+.writting li{
+	color: white;
+	
+	padding-top: 60px;
+	display: inline-block;
+	padding-right: 60px;
+}
+.writting-1 li{
+	color: white;
+	
+	padding-top: -10px;
+	display: inline-block;
+	padding-right: 60px;
+}

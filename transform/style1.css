@@ -1,0 +1,50 @@
+.main{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+	top: 80px;
+	margin: auto;
+	transition: all 2s;
+	animation:5s prolog infinite;
+}
+@keyframes prolog{
+	0%{
+        transform: rotate(10deg);
+	}
+	20%{
+        transform: rotate(20deg);
+	}
+	40%{
+        transform: rotate(90deg);
+	}
+	60%{
+        transform: rotate(180deg);
+	}
+	80%{
+        transform: rotate(270deg);
+	}
+	100%{
+        transform: rotate(360deg);
+	}
+}
+.main:after{
+	content: '';
+	position: absolute;
+	left: 100%;	
+	border-top: 20px solid transparent;
+	border-left: 90px solid red;
+	border-bottom: 20px solid transparent;
+}
+.main:before{
+	content: '';
+	position: absolute;
+	right:  100%;	
+	border-top: 20px solid transparent;
+	border-right: 90px solid red;
+	border-bottom: 20px solid transparent;
+	bottom: 0px;
+}
+/*.main:hover{
+	transform: rotate(360deg);
+}*/

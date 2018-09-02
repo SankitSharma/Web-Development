@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Credit Card Validation Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="parent">
+		<div class="child-1">
+			<p>Credit Card Validation Widget</p>
+		</div><!-- child-1 -->
+		<div class="child-2">
+		</div>
+			<div class="type-1">
+				<form action="data.php" method="post">
+					<label>Card Number</label>
+					<br>
+					<input class="decoration-1" type="password" required="required" name="card number" placeholder=".... .... .... ...." pattern="[0-9]{16}" autofocus="autofocus">
+					<br>
+					<label>CVV</label>
+					<br>
+					<input class="decoration-1" type="password"  required="required"  name="cvv" placeholder="..." pattern="[0-9]{3}">
+					<br>
+					<label>Name on Card</label>
+					<br>
+					<input class="decoration-1" type="text"  required="required"  name="cardname" placeholder="John Smith">
+					<br>
+					<label>Expiration</label>
+					<br>
+					<input class="decoration-2" type="month"  required="required"  name="time" placeholder="MM/YY">
+					<br>
+	                <input class="decoration-3" type="SUBMIT">
+				</form>
+			</div><!-- type-1 -->
+        <div class="child-3">
+        	<p>2018 Credit Card Validation Widget.All Right Reserved | Design by W3layouts</p>
+        </div>
+		
+	</div><!-- parent -->
+
+</body>
+</html>

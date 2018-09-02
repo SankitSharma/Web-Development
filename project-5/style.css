@@ -1,0 +1,254 @@
+.parent{
+	width: 1100px;
+	height: 913px;
+	background-color: white;
+	margin: auto;
+	box-shadow: 3px 3px 1px #bbbbbb,-3px -3px 1px #bbbbbb;
+}
+.child-1{
+	width: 100%;
+	height: 66px;
+}
+.subchild-1{
+	width: 344px;
+	height: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+	padding: 18px 0px;
+}
+.subchild-1 img{
+	margin-left: 224px;
+	float:left;
+}
+.decoration-1{
+	color: #60a701;
+	font-size: 20px;
+	font-family:Cambria Bold;
+	float: left;
+	margin-top: 2px;	
+}
+.decoration-2{
+	color: #1d1d1d;
+	font-size: 20px;
+	font-family: Cambria Bold;
+	margin-top: 2px;
+	float: left;
+}
+.subchild-2{
+	width: 650px;
+	height: 100%;
+	float: right;
+	display: inline-block;
+}
+.subchild-2 img{
+	padding-right: 5px;
+	float:left;
+}
+.designer-1 li{
+	width: 25%;
+	display: inline-block;
+	list-style-type: none;
+}
+.decoration-3{
+    color:#60a701;
+	font-size: 15px;
+	font-family: Cambria Bold;
+	display: inline-block;
+}
+.decoration-4{
+    color: #bababa;
+	font-size: 10px;
+	font-family: Cambria Bold;
+	float: left;
+	display: inline-block;
+}
+.child-2{
+	width: 100%;
+	height: 462px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.child-3{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	background-color: #6baf0a;
+    top: -50px;
+    transition: all 1s;
+}
+.designer-2{
+	margin-left: 160px;
+	width: 56%;
+	display: inline-block;
+}
+.designer-2 li{
+	display: inline-block;
+	padding-right: 26px;
+	font-family: Arial Regular;
+	font-size: 14px;
+}
+.designer-2 li a{
+	text-decoration: none;
+	color: white;
+}
+.designer-2 li:hover{
+    border-bottom: 2px solid white;
+    height: 30px;
+}
+.designer-2 li a:hover{
+	color: black;
+}
+.subchild-3{
+     width: 120px;
+     height: 100%;
+     background-color: #2d361b;
+     display: inline-block;
+     position: absolute;
+     text-align: center;
+     color: white;
+     font-family: Arial Regular;
+	 font-size: 15px;
+	 box-sizing: border-box;
+}
+.child-2:hover .child-3{
+      top: 0px;
+}
+.child-4{
+	width: 100%;
+	height: 78px;
+	background-color: #303030;
+	position: absolute;
+	bottom: -78px;
+	transition: all 1s;
+}
+.subchild-4{
+	width: 145px;
+	height: 70px;
+	background-color: #6bae11;
+	position: absolute;
+	top: 0px;
+	display: inline-block;
+    margin-left: 220px;
+    padding-left: 15px;
+    padding-top: 28px;
+    transition: all 1s;
+}
+.decoration-5{
+	font-size: 10px;
+	color: white;
+}
+.decoration-6{
+	font-size: 16px;
+	color: white;
+	font-family: Arial Black;
+}
+.child-4 img{
+	margin-left: 400px;
+	margin-top: 26px;
+}
+.subchild-5{
+	width: 380px;
+	height: 100%;
+	float: right;
+}
+.designer-3 li{
+	width: 18%;
+	height: 42px;
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	padding-left: 12px;
+	border-right: 1px solid #767676;
+}
+.child-2:hover .child-4{
+      bottom: 0px;  
+}
+.child-2:hover .subchild-4{
+      top: -10px;  
+}
+.child-5{
+	width: 100%;
+	height: 85px;
+	float: left;
+	text-align: center;
+}
+.child-5 p{
+	padding-top: 12px;
+	font-size: 22px;
+	font-family: Arial Black;
+}
+.child-6{
+	width: 40%;
+	height: 300px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+.subchild-6{
+	width: 230px;
+	height: 254px;
+	margin-top: 15px;
+    border: 1px solid #e9eae5;
+    overflow: hidden;
+    float: right;
+    border-radius: 8px;
+}
+.subchild-6 img{
+	width: 230px;
+	height: 254px;
+	transition: all 1s;
+	border-radius: 8px;
+}
+.subchild-6 img:hover{
+	width: 238px;
+	height: 264px;
+}
+.child-7{
+	width: 60%;
+	height: 300px;
+	float: right;
+	display: inline-block;
+}
+.designer-4{
+	height: 58px;
+	width: 100%;
+	display: inline-block;
+}
+.designer-4 li{
+	width: 140px;
+	height: 70px;
+	display: inline-block;
+	border: 1px solid black;
+	margin-right: 38px;
+	overflow: hidden;
+}
+.designer-4 li img{
+	width: 140px;
+	height: 70px;
+	transition: all 1s; 
+}
+.designer-4 li img:hover{
+	width: 145px;
+	height: 80px;
+}
+.designer-5{
+	margin-top: 0px;	
+}
+.designer-5 li{
+	width: 144px;
+	height: 22px;
+	display: inline-block;
+	margin-right: 38px;
+}
+.decoration-7{
+	font-size: 14px;
+	font-family:Arial Black; 
+	display: inline-block;	
+}
+.decoration-8{
+	font-size: 10px;
+	font-family:Arial Regular;
+	display: inline-block; 	
+}

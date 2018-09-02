@@ -1,0 +1,13 @@
+.parent{
+	background-color: red;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+img{
+	display: none;
+}
+.parent img:nth-child(1n+6){
+	display:inline-block;
+}
