@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<title>Find SRK</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jQuery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+            var count=0;
+            $('.hider').on('click',function(){
+            	count ++;
+              $('#score').text('Your Score:'+count);
+               var x=$(this).parent().find('span').text();
+               alert(x);
+
+                $(this).css('display','none');
+               $(this).remove();
+              
+               var SRK='SRK';
+               if(SRK==x){
+               	alert("You Win your Score is:"+count);
+                setTimeout(function(){
+
+               	history.go(0);
+                },2000);
+               }
+               else{
+               	alert('You are wrong ....Keep Playing');
+               }
+            })
+
+		})
+
+
+
+	</script>
+</head>
+<body>
+	<div class="parent">
+        <div class="child-1">
+        	<div class="timer">
+        	<span id="score"></span>        		
+        	</div>
+        	<p>FIND SRK?</p>
+        </div><!-- child-1- -->
+        <div class="child-2">
+        	<div class="imageholder">
+        		<img src="virat.jpg">
+        		<span class="decoration">Virat Kohli</span>
+        		<div class="hider">
+        			
+        		</div>
+        	</div>
+        	<div class="imageholder">
+        		<img src="salman.jpg">
+        		<span class="decoration">Salman Khan</span>
+        		<div class="hider">
+        			
+        		</div>
+        	</div>
+        	<div class="imageholder">
+        		<img src="rsingh.jpg">
+        		<span class="decoration">Ranveer</span>
+        		<div class="hider">
+        			
+        		</div>
+        	</div>
+        	<div class="imageholder">
+        		<img src="srk.jpg">
+        		<span class="decoration">SRK</span>
+        		<div class="hider">
+        			
+        		</div>
+        	</div>
+        	<div class="imageholder">
+        		<img src="rkapoor.jpg">
+        		<span class="decoration">Ranbir kapoor</span>
+        		<div class="hider">
+        			
+        		</div>
+        	</div>
+        	<div class="imageholder">
+        		<img src="varun.jpg">
+        		<span class="decoration">Varun Dhawan</span>
+        		<div class="hider">
+        			
+        		</div>
+        	</div>
+
+
+        </div><!-- child-2 -->
+	
+	</div><!-- parent -->
+
+</body>
+</html>
